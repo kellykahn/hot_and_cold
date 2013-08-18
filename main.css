@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+.titlehot {
+	color: #C00000;
+}
+
+.titlecold {
+	color: #00008B;
+}
+
+.titleguess {
+	color: white;
+}
+
+.titleor {
+	color: #383838; 
+	font-size: 25px; 
+}
+
+.Hot, .Cold, .Right {
+	display: none; 
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
+
+.elephant_pic {
+	margin-top: 25px;
+	border: 5px solid white;
+	height: 400px;
+	width: 350px; 
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.headline {
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	line-height: 1.5em;
+	margin-top: 20px;
+}
+
+#MyGuess {
+	text-align: center; 
+	width: 150px;
+	height: 20px;
+	margin-left: 550px; 
+	margin-top: 10px; 
+	box-shadow: 10px 10px 5px #888888;
+}
+#btnGuess {
+	text-align: center; 
+	margin-top: 15px;
+	width: 60px;
+	height: 25px;
+	color: red;
+	margin-left: 600px; 
+
+}
+
+body {
+	background-color: #C0C0C0; 
+}
+}
