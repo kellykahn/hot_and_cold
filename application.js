@@ -1,7 +1,8 @@
 jQuery(document).ready(function(){
 	
 
-		weight = 2000 
+		weight = Math.round(6000 + Math.random()* 8000)
+
 		
 
 
@@ -15,15 +16,15 @@ jQuery(document).ready(function(){
   		$(".Right").show();
 		}
 
-		else if(theGuess >= 1800 && theGuess <= 2200){ 
-			console.log('You are getting close!');
+		else if(theGuess > weight){ 
+			console.log('You are getting close!');	
   		$(".Cold").hide();
   		$(".Right").hide(); 
   		$(".Hot").show();
   		
 		}
 		
-		else if(theGuess <= 1800 || theGuess >= 2200){ 
+		else if(theGuess < weight){ 
 			console.log('Try again!');
   		$(".Hot").hide();
   		$(".Right").hide(); 

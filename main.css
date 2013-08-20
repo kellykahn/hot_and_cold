@@ -53,12 +53,19 @@ q:before, q:after {
 
 .titleguess {
 	color: white;
+	font-size: 30px; 
 }
 
 .titleor {
 	color: #383838; 
 	font-size: 25px; 
 }
+
+.titleweight {
+	font-size: 20px;
+
+}
+
 
 .Hot, .Cold, .Right {
 	display: none; 
@@ -69,7 +76,7 @@ q:before, q:after {
 }
 
 .elephant_pic {
-	margin-top: 25px;
+	margin-top: 10px;
 	border: 5px solid white;
 	height: 400px;
 	width: 350px; 
@@ -82,7 +89,7 @@ q:before, q:after {
 	text-align: center;
 	font-size: 40px;
 	line-height: 1.5em;
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 #MyGuess {
