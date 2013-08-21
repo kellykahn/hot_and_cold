@@ -6,32 +6,27 @@ jQuery(document).ready(function(){
 		
 
 
-	 TheGuess=function(){
-		var theGuess = $('#MyGuess').find("input").val();
+	TheGuess=function(){
+		var Userguess = $('#MyGuess').find("input").val();
 
-		 if (weight == theGuess){
+		if(weight == Userguess){
 			console.log("Congratulations. You guessed my Pet elephant's weight!");
-  		$(".Hot").hide();
-  		$(".Cold").hide(); 
-  		$(".Right").show();
+  			$(".Hot").hide();
+  			$(".Cold").hide(); 
+  			$(".Right").show();
 		}
-
-		else if(theGuess > weight){ 
+		else if(Userguess > weight){ 
 			console.log('You are getting close!');	
-  		$(".Cold").hide();
-  		$(".Right").hide(); 
-  		$(".Hot").show();
-  		
+  			$(".Cold").hide();
+  			$(".Right").hide(); 
+  			$(".Hot").show();
 		}
-		
-		else if(theGuess < weight){ 
+		else if(Userguess < weight){ 
 			console.log('Try again!');
-  		$(".Hot").hide();
-  		$(".Right").hide(); 
-  		$(".Cold").show();
-	
+  			$(".Hot").hide();
+  			$(".Right").hide(); 
+  			$(".Cold").show();
 		}
-
 		
 	}
 
